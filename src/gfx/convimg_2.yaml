@@ -1,0 +1,29 @@
+palettes:
+  - name: space_palette
+    fixed-entries: 
+        - image: palette.png
+
+converts:
+  - name: myimages
+    palette: space_palette
+    images:
+#      - earth.png
+#      - jupiter.png
+#      - mars.png
+#     - mercury.png
+#     - neptune.png
+#     - pluto.png
+      - saturn.png
+      - sun.png
+      - uranus.png
+#      - venus.png
+
+outputs:
+  - type: appvar
+    name: plnts_2
+    include-file: gfx_2.h
+    source-format: c
+    palettes:
+      - space_palette
+    converts:
+      - myimages

@@ -1,0 +1,10 @@
+palettes:
+  - name: space_palette
+    fixed-entries: 
+        - image: palette.png
+        
+outputs:
+  - type: c
+    include-file: gfx_p.h
+    palettes:
+      - space_palette

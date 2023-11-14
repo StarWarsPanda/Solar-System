@@ -1,0 +1,5 @@
+#include "gfx_0.h"
+#include "gfx_1.h"
+#include "gfx_2.h"
+#include "gfx_3.h"
+#include "gfx_p.h"
